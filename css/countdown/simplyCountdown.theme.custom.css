@@ -1,0 +1,42 @@
+/**
+* Project : simply-countdown
+* File : simplyCountdown.theme.custom
+* Author : Your Name <YourMail@example.com>
+*/
+
+.simply-countdown {
+    margin: auto;
+    overflow: visible;
+    display: table;
+}
+.simply-countdown > .simply-section {
+    width: 85px;
+    height: 85px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: rotate(-45deg);
+    float: left;
+    margin: 25px;
+    background: #5c821a;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+}
+
+.simply-countdown > .simply-section > div {
+    transform: rotate(45deg);
+}
+
+.simply-countdown > .simply-section .simply-amount,
+.simply-countdown > .simply-section .simply-word {
+    display: block;
+    color: #fff;
+    text-align: center;
+}
+
+.simply-countdown > .simply-section .simply-amount {
+    font-size: 1.1rem;
+}
+
+.simply-countdown > .simply-section .simply-word {
+    font-size: 0.9rem;
+}
